@@ -1,15 +1,15 @@
 distributor:
     routes:
-        70c97d8d-a729-4a23-bb40-bc20e7e6e5c2:
-            uuid: 70c97d8d-a729-4a23-bb40-bc20e7e6e5c2
+        70c97d8d-a729-4a23-bb40-bc20e7e6e5c1:
+            uuid: 70c97d8d-a729-4a23-bb40-bc20e7e6e5c1
             weight: 10000
             value:
                 type: csv
                 pass: ''
                 config:
-                    jsonRequest:
+                    csv:
                         enabled: true
-                        async: inherit
+                        async: false
                         disableStorage: inherit
                         enableDataProviders:
                             type: all
@@ -23,7 +23,7 @@ distributor:
                             fieldMap:
                                 fields: {  }
                             passthroughFields:
-                                enabled: false
+                                enabled: true
                             ignoreEmptyFields:
                                 enabled: true
                             excludeFields:
@@ -41,6 +41,5 @@ metaData:
     version:
         core: 1.0.0
         distributor-core: 1.0.0
-        distributor-request: 1.0.0
-        distributor-json-request: 1.0.0
+        distributor-csv: 1.0.0
     includes: {  }
