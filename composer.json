@@ -10,71 +10,20 @@
 		"formrelay"
 	],
 	"homepage": "https://www.mediatis.de",
-	"authors": [
-		{
-			"name": "Michael Vöhringer",
-			"role": "Developer"
-		},
-		{
-			"name": "Meelis Karulin",
-			"role": "Developer"
-		},
-		{
-			"name": "Damian Ickler",
-			"role": "Developer"
-		},
-		{
-			"name": "Stephan Ude",
-			"role": "Developer"
-		}
-	],
+    "authors": [
+        {
+            "email": "info@mediatis.de",
+            "homepage": "https://www.mediatis.de",
+            "name": "Mediatis AG",
+            "role": "Developer"
+        }
+    ],
 	"minimum-stability": "dev",
-	"repositories": [
-        {
-            "type": "path",
-            "url": "packages/*"
-        },
-        {
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/typo3-distributor-core.git",
-			"only": [
-				"digital-marketing-framework/typo3-distributor-core"
-			]
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/typo3-core.git",
-			"only": [
-				"digital-marketing-framework/typo3-core"
-			]
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/distributor-csv.git",
-			"only": [
-				"digital-marketing-framework/distributor-csv"
-			]
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/distributor-core.git",
-			"only": [
-				"digital-marketing-framework/distributor-core"
-			]
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/core.git",
-			"only": [
-				"digital-marketing-framework/core"
-			]
-		}
-	],
 	"require": {
 		"php": "^8.1",
 		"typo3/cms-core": "^11.5||^12.4",
 		"digital-marketing-framework/typo3-distributor-core": "dev-main",
-		"digital-marketing-framework/distributor-csv": "@dev"
+		"digital-marketing-framework/distributor-csv": "^1.0"
 	},
 	"require-dev": {
 		"nimut/testing-framework": "^6.0",
