@@ -10,6 +10,4 @@ class StaticConfigurationDocumentEventListener extends OriginalStaticConfigurati
     {
         return 'digitalmarketingframework_distributor_csv';
     }
-
-
 }
