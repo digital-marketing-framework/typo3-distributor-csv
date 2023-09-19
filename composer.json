@@ -20,7 +20,7 @@
 	"homepage": "https://www.mediatis.de",
 	"require": {
 		"php": "^8.1",
-		"digital-marketing-framework/distributor-csv": "dev-feature/MFR-21-port-from-formrelay",
+		"digital-marketing-framework/distributor-csv": "^1.0",
 		"digital-marketing-framework/typo3-distributor-core": "dev-main",
 		"typo3/cms-core": "^11.5 || ^12.4"
 	},
@@ -48,15 +48,6 @@
 	"conflict": {
 		"typo3/class-alias-loader": "< 1.1.0"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@github.com:digital-marketing-framework/distributor-csv.git",
-			"only": [
-				"digital-marketing-framework/distributor-csv"
-			]
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"autoload": {
