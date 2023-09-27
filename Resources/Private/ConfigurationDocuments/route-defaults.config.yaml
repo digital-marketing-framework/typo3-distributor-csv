@@ -1,0 +1,48 @@
+valueMaps: {}
+identifier:
+  collectors: {}
+distributor:
+  async: false
+  disableStorage: false
+  routes:
+    75f435a8-e517-47a2-932d-7e1205919c74:
+      uuid: 75f435a8-e517-47a2-932d-7e1205919c74
+      weight: 10000
+      value:
+        type: csv
+        pass: ""
+        config:
+          csv:
+            enabled: true
+            async: inherit
+            disableStorage: inherit
+            enableDataProviders:
+              type: all
+              config:
+                all: {}
+            gate:
+              type: "true"
+              config:
+                "true": {}
+            data:
+              fieldMap:
+                fields: {}
+              passthroughFields:
+                enabled: true
+              ignoreEmptyFields:
+                enabled: true
+              excludeFields:
+                fields: {}
+              prefix:
+                prefix: ""
+                action: add
+            fileIdentifier: 0:/form-submits.csv
+            delimiter: ;
+            enclosure: '"'
+metaData:
+  name: CSV Route
+  version:
+    core: 1.0.0
+    distributor-core: 1.0.0
+    distributor-csv: 1.0.0
+  includes: {}
