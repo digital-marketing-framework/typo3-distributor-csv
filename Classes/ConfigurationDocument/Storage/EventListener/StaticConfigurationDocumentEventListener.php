@@ -8,6 +8,6 @@ class StaticConfigurationDocumentEventListener extends OriginalStaticConfigurati
 {
     protected function getExtensionKey(): string
     {
-        return 'digitalmarketingframework-distributor-csv';
+        return 'dmf_distributor_csv';
     }
 }
