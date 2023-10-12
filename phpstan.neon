@@ -1,6 +1,2 @@
-parameters:
-  level: 6
-  paths:
-    - ./Classes
-    - ./Tests
-  reportUnmatchedIgnoredErrors: false
+includes:
+	- .Build/vendor/mediatis/typo3-coding-standards/phpstan.neon
