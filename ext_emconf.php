@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Digital Marketing Framwork - Distributor - Csv',
+    'title' => 'Digital Marketing Framwork - Distributor - CSV',
     'description' => 'Save form data to a CSV file',
     'category' => 'be',
     'author' => 'Meelis Karulin',
