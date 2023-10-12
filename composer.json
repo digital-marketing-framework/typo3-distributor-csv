@@ -57,9 +57,9 @@
             "typo3/cms-composer-installers": true
         },
         "bin-dir": ".Build/bin",
-		"preferred-install": {
-			"*": "dist"
-		},
+        "preferred-install": {
+            "*": "dist"
+        },
         "sort-packages": true,
         "vendor-dir": ".Build/vendor"
     },
