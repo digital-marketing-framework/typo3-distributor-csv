@@ -9,6 +9,6 @@ class DistributorRegistryUpdateEventListener extends AbstractDistributorRegistry
 {
     public function __construct()
     {
-        parent::__construct(new DistributorCsvInitialization());
+        parent::__construct(new DistributorCsvInitialization('dmf_distributor_csv'));
     }
 }
