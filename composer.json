@@ -31,9 +31,6 @@
     "require-dev": {
         "mediatis/typo3-coding-standards": "^1.0"
     },
-    "replace": {
-        "digital-marketing-framework/typo3-distributor-csv": "self.version"
-    },
     "conflict": {
         "typo3/class-alias-loader": "< 1.1.0"
     },
