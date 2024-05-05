@@ -24,8 +24,8 @@
     "homepage": "https://www.mediatis.de",
     "require": {
         "php": "^8.1",
-        "digital-marketing-framework/distributor-csv": "^1.0",
-        "digital-marketing-framework/typo3-distributor-core": "^1.0 || dev-main",
+        "digital-marketing-framework/distributor-csv": "^2.0",
+        "digital-marketing-framework/typo3-distributor-core": "^2.0",
         "typo3/cms-core": "^11.5 || ^12.4"
     },
     "require-dev": {
@@ -34,7 +34,6 @@
     "conflict": {
         "typo3/class-alias-loader": "< 1.1.0"
     },
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
