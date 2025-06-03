@@ -6,7 +6,7 @@ It is saving the form data by appending it to a CSV file.
 
 # Setup
 
-All basic settings, explained in EXT:dmf_distributor_core, (including the overwrite mechanics) apply to this extension as well.
+All basic settings, explained in EXT:dmf_distributor_core, apply to this extension as well.
 
 ## fileIdentifier
 Set the path and filename to the CSV file that the form data shall be appended to.
